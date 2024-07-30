@@ -1,0 +1,659 @@
+@media (max-width: 1482px) {
+  .wrapper {
+    display: none;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    width: 100%;
+    height: 100%;
+  }
+
+  .container-mobile {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    /* height: 100vh; */
+  }
+
+  header {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    /* height: 100%; */
+    z-index: 9999;
+  }
+
+  .header-top-mobile {
+    display: flex;
+    align-items: center;
+    background-color: #d32323;
+    height: 43.98px;
+  }
+
+  .header-top-left-mobile {
+    margin-left: 9px;
+  }
+
+  .open-app-btn-mobile {
+    display: flex;
+    align-items: center;
+    background-color: #bc1d25;
+    border: 1px solid #91151c;
+    border-radius: 3px;
+    color: white;
+    justify-content: center;
+    padding: 6px 9px 6px 6px;
+  }
+
+  .open-app-btn-mobile p {
+    line-height: 18px;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 1px;
+  }
+
+  .header-top-med-mobile {
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .header-top-med-mobile img {
+    height: 25.98px;
+    width: 51.96px;
+    position: absolute;
+    left: -60px;
+    top: -13.5px;
+  }
+
+  .header-top-right-mobile {
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 1px;
+    left: -1.5px;
+  }
+
+  .header-mid-mobile {
+    width: 100%;
+    background-color: #d32323;
+    padding: 8px 10px 0 !important;
+    height: 66px;
+  }
+
+  .mobile-form {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+  }
+
+  .mobile-form-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 18px;
+    background-color: white;
+  }
+
+  .mobile-form-right {
+    width: 100%;
+    display: inline-flex;
+    position: relative;
+  }
+
+  .mobile-form-right input {
+    background-color: white;
+    color: #2d2e2f;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin: 2px 0 0px;
+    padding: 12px 16px 14px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: "sans reg";
+    font-weight: 500;
+  }
+
+  /* ////////////////////////////////////////////////////////////////////////// */
+
+  .main-mobile {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    /* top: 108.5px; */
+    /* background-color: blue; */
+  }
+
+  .mobile-section-categories {
+    margin-bottom: 24.5px;
+  }
+
+  .mobile-categories {
+    padding: 12px 16px;
+    margin-bottom: 24px;
+  }
+
+  .mobile-category-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -6px;
+    margin-left: -13px;
+    margin-right: 6px;
+    position: relative;
+    left: 8px;
+  }
+
+  .mobile-category-outer {
+    margin: 6px auto 0;
+    padding: 0 3px;
+    margin: 1 2px !important;
+    width: 25%;
+  }
+
+  .mobile-category-inner {
+    padding: 5.5px 0 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mobile-category-inner img {
+    width: 36px;
+    height: 36px;
+    aspect-ratio: auto 36/36;
+    max-height: 36px;
+    margin: auto;
+  }
+
+  .mobile-category-inner p {
+    padding-top: 6px;
+    line-height: 18px;
+    color: #333;
+    text-align: center;
+    font-size: 12px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-wrap: wrap;
+    width: 80%;
+  }
+
+  .service-and-professional-mobile {
+    margin: 0 12px !important;
+  }
+
+  .service-section-mobile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service-head-mobile {
+    padding-bottom: 12px;
+    width: 100%;
+  }
+
+  .service-head-mobile span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+    width: 100%;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    line-height: 24px;
+    vertical-align: baseline;
+  }
+
+  .image-scroll-mobile {
+    overflow-x: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image-container-mobile {
+    display: flex;
+    margin-left: 0;
+    gap: 12px;
+    align-items: flex-start;
+    overflow-x: hidden;
+    scrollbar-width: none;
+  }
+
+  .image-card-mobile {
+    max-width: 154px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-image-mobile {
+    padding-bottom: 6px;
+  }
+
+  .card-image-mobile img {
+    object-fit: cover;
+    border-radius: 4px;
+    vertical-align: middle;
+  }
+
+  .image-card-mobile span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: rgb(51, 51, 51);
+  }
+
+  .left-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(235, 235, 235, 0.3);
+    border-radius: 50%;
+    height: 32px;
+    opacity: 0.8px;
+    position: absolute;
+    width: 32px;
+    top: 309px;
+    left: 24px;
+    cursor: pointer;
+  }
+
+  .right-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
+    background-color: white;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    cursor: pointer;
+    right: 24px;
+    top: 309px;
+  }
+
+  .yelp-app {
+    /* width: 100%; */
+    margin: 0 12px 24px;
+    overflow-x: hidden;
+  }
+
+  .open-yelp-app-mobile {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(45, 46, 47, 1);
+    cursor: pointer;
+    height: 48px;
+    padding: 12px 32px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    border-radius: 4px;
+  }
+
+  .open-yelp-app-mobile span {
+    text-align: center;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: "Poppins med";
+    font-size: 16px;
+    letter-spacing: -0.2px;
+    line-height: 24px;
+    margin-top: 1px;
+  }
+
+  .business-nearby-mobile {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .business-mobile-top {
+    margin-left: 12px;
+  }
+
+  .business-mobile-top h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 6px;
+    line-height: 26.9999px;
+  }
+
+  .business-mobile-bottom {
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .review-mobile-section {
+    padding: 12px;
+    display: flex;
+  }
+
+  .review-image-mobile {
+    margin: 0 6px;
+  }
+
+  .review-image-mobile img {
+    border-radius: 4px;
+    vertical-align: middle;
+    object-fit: cover;
+    height: 60px;
+    width: 60px;
+  }
+
+  .review-image-text {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .review-image-text span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.9999px;
+    text-align: left;
+    text-wrap: nowrap;
+    vertical-align: baseline;
+    color: rgb(51, 51, 51);
+  }
+
+  .review-sub-mobile {
+    display: flex;
+    white-space: nowrap;
+    margin: 3px 0;
+    gap: 8px;
+  }
+
+  .review-sub-mobile img {
+    object-fit: cover;
+    height: 14px;
+    width: 82px;
+  }
+
+  .review-sub-mobile span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgb(102, 102, 102);
+  }
+
+  .place-mobile {
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 18px !important;
+    color: rgb(51, 51, 51);
+  }
+
+  .line-top {
+    border-top: 1px solid #e6e6e6;
+  }
+
+  .view-more-mobile {
+    padding: 0 12px 12px;
+    margin-bottom: 24px;
+  }
+
+  .view-more-mobile button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid #ccc;
+    color: rgba(102, 102, 102, 1);
+    padding: 12px 14px;
+  }
+
+  .view-more-mobile button span {
+    font-family: Arial, Helvetica, sans-serif;
+    color: inherit;
+    text-align: center;
+    font-size: 14px;
+    max-width: 100%;
+    line-height: 17.9999px;
+    font-weight: 400;
+    white-space: nowrap;
+  }
+
+  .best-restaurants-mobile {
+    padding: 36px 18px 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .restaurant-mobile-top {
+    margin-bottom: 12px;
+  }
+
+  .restaurant-mobile-top span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+    line-height: 18px;
+  }
+
+  .best-restaurants-mobile ul {
+    list-style-type: none;
+  }
+
+  .best-restaurants-mobile ul li {
+    margin-bottom: 6px;
+  }
+
+  .best-restaurants-mobile ul li span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: black;
+  }
+
+  .footer-mobile {
+    padding: 48px 0;
+    background-color: rgba(247, 247, 247, 1);
+    width: 100%;
+    height: 100%;
+  }
+
+  .footer-mobile-contents {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 24px;
+  }
+
+  .footer-mobile-contents-top {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .mobile-languages {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile-languages span {
+    font-family: "sans semi";
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: rgba(45, 46, 47, 1);
+    text-align: left;
+    /* font-weight: 700; */
+  }
+
+  .language-selector-mobile {
+    display: flex;
+    padding-top: 8px;
+  }
+
+  .language-selector-mobile span {
+    font-family: "sans reg";
+    margin-right: 4px;
+    font-size: 14px !important;
+    line-height: 20px;
+    color: rgb(110, 112, 114);
+    text-align: left;
+    font-weight: 10 !important;
+  }
+
+  .footer-mobile-contents-mid {
+    padding-top: 15px;
+    position: relative;
+    top: 1px;
+  }
+
+  .footer-mobile-contents-mid ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+  }
+
+  .footer-mobile-contents-mid ul li span {
+    font-family: "sans reg";
+    border-radius: 3px;
+    color: rgba(2, 122, 151, 1);
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .footer-mobile-contents-mid ul li span::after {
+    content: "\00a0\2022\00a0";
+    font-family: "sans reg";
+    text-align: left;
+    line-height: 20px;
+    color: rgba(45, 46, 47, 1);
+    margin: 0 4px;
+  }
+
+  .last::after {
+    display: none;
+  }
+
+  .add-business-mobile {
+    margin-top: 25px;
+  }
+
+  .add-business-mobile span {
+    font-family: "sans reg";
+    border-radius: 3px;
+    color: rgba(2, 122, 151, 1);
+    font-size: 14px;
+    line-height: 20px;
+    /* position: relative;
+    top: 1px; */
+  }
+
+  .copyright-mobile {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 21px;
+    gap: 8px;
+  }
+
+  .copyright-mobile p {
+    font-family: "sans reg";
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(110, 112, 114, 1);
+    text-align: left;
+    vertical-align: baseline;
+  }
+
+  .plogo {
+    height: 19px;
+    width: 38px;
+    position: relative;
+    top: 3px;
+  }
+
+  .plogo-burst {
+    height: 16px;
+    width: 14px;
+    position: relative;
+    top: 1px;
+    margin-right: 1.5px;
+  }
+
+  @font-face {
+    font-family: "poppins bold";
+    src: url("font/poppins-bold.yji-9690ce6275ddc5645cfa.woff2");
+  }
+
+  @font-face {
+    font-family: "poppins med";
+    src: url("font/poppins-medium.yji-dc16a3592fdb61b620cc.woff2");
+  }
+
+  @font-face {
+    font-family: "poppins reg";
+    src: url("font/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2");
+  }
+
+  @font-face {
+    font-family: "open-sans-regular";
+    src: url("font/open-sans-regular.yji-aff9b80e384301f2ae0c\ \(1\).woff2");
+  }
+
+  @font-face {
+    font-family: "open-sans-semibold";
+    src: url("font/open-sans-semibold.yji-d3abae27d3eac73b40a5\ \(2\).woff2");
+  }
+
+  @font-face {
+    font-family: "sans semi";
+    src: url("font/open-sans-semibold.yji-d3abae27d3eac73b40a5.woff2");
+  }
+
+  @font-face {
+    font-family: "sans reg";
+    src: url("font/open-sans-regular.yji-aff9b80e384301f2ae0c.woff2");
+  }
+}
+
+@media(min-width:1482px){
+    .container-mobile{
+        display: none;
+    }
+}
